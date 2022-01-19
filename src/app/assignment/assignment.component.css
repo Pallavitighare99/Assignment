@@ -1,0 +1,70 @@
+*{
+    padding-top: 1px;
+    padding-bottom: 60px;
+}
+.container{
+    background-color: rgb(200, 200, 228);
+    font-family: sans-serif;
+}
+button{
+    cursor: pointer;
+    padding: 10px;
+    width: 110px;
+    height: 60px;
+    border: none;
+    border: 3px solid rgb(10, 10, 10);
+    font-weight: bolder;
+    margin-right: 36px;
+   
+}
+.btnAction{
+    margin-left: 15%;
+    margin-top: 10%;   
+}
+.border{
+    border: 3px solid rgb(18, 19, 19);
+    margin: 10%; 
+}
+.active{
+    background: black;
+    color: white;
+}
+.box{
+    background-color: white;
+    width: 800px;
+    margin: 5% auto;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 3px solid rgb(5, 5, 5);
+}
+p{
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.color{
+    background-color: cornflowerblue;
+}
+.sizeSmall{
+    font-size: smaller;
+}
+.sizeGreat{
+    font-size: large;
+}
+.clear{
+    font-weight: normal;
+    font-style: normal;
+    background-color: white;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #323330;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
